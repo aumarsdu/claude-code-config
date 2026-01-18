@@ -1,0 +1,37 @@
+{
+  "model": "sonnet",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "42plugin __hook",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "42plugin __hook",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "superpowers@superpowers-marketplace": true,
+    "docx-format-replicator@happy-claude-skills": true,
+    "business-startup-skills@claude-skills-collection": true,
+    "marketing-growth-skills@claude-skills-collection": true
+  },
+  "language": "中文"
+}

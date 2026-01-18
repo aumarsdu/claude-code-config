@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "example-server": {
+      "command": "node",
+      "args": ["path/to/server.js"],
+      "env": {},
+      "disabled": true
+    }
+  }
+}
